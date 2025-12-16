@@ -7,7 +7,6 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    // Alkunäkymä
     ui->txtResult->setText("0");
     ui->labelInfo->setText("Painiketta painettu 0 kertaa");
 }
